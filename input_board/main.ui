@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuModel">
+    <property name="title">
+     <string>Engine</string>
+    </property>
+    <addaction name="actionSSDCNN"/>
+    <addaction name="actionRNN_LSTM"/>
+    <addaction name="actionRNN_GRU"/>
+    <addaction name="actionDualGNN"/>
+   </widget>
+   <addaction name="menuModel"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSSDCNN">
+   <property name="text">
+    <string>SSDCNN</string>
+   </property>
+  </action>
+  <action name="actionRNN_LSTM">
+   <property name="text">
+    <string>RNN/LSTM</string>
+   </property>
+  </action>
+  <action name="actionRNN_GRU">
+   <property name="text">
+    <string>RNN/GRU</string>
+   </property>
+  </action>
+  <action name="actionDualGNN">
+   <property name="text">
+    <string>DualGNN</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

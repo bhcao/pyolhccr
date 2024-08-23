@@ -1,0 +1,4 @@
+{
+    "pot_dirs": ["../datasets/train/pot"],
+    "vectors_dirs": [["../datasets/train/vectors", "../datasets/labels"]]
+}
